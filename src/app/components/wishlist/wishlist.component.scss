@@ -1,0 +1,16 @@
+
+.product{
+    &:hover{
+        
+        .main-btn{
+            transform: translateY(0%);
+            z-index: 1;
+        }
+    }
+    .main-btn{
+        transform: translateY(170%);
+        transition: all 0.3s;
+        z-index: 0;
+    }
+ 
+}

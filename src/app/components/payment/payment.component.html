@@ -1,0 +1,18 @@
+<section class="shadow rounded bg-main-light p-3 mb-3">
+    <h2>Payment Form</h2>
+    <form [formGroup]="paymentForm" (ngSubmit) = 'handelForm()'>
+        <div class="input-item">
+            <label for="details mt-2">Details</label>
+            <input type="text" class="form-control" formControlName="details">
+        </div>
+        <div class="input-item  mt-2">
+            <label for="details">Phone</label>
+            <input type="text" class="form-control" formControlName="details">
+        </div>
+        <div class="input-item mt-2">
+            <label for="details">City</label>
+            <input type="text" class="form-control" formControlName="details">
+        </div>
+        <button class="btn main-btn mt-3">Check Out</button>
+    </form>
+</section>
